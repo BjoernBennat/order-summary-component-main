@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background: url("images/pattern-background-mobile.svg") no-repeat center center;
+    background-position: top;
+    background-color: hsl(225, 100%, 94%);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 330px;
+    height: 570px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.wrap {
+    margin: 0 50px 0 20px;
+}
+
+.hero {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.music-icon {
+    display: inline-block;
+    width: 50px;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: .9rem;
+    margin: 0;
+}
+
+span {
+    font-size: .9rem;
+    color: hsl(224, 23%, 55%)
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    padding: 0 30px;
+}
+
+a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+button {
+    display: block;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    width: 280px;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Red Hat Dispaly', sans-serif;
+}
+
+button:nth-of-type(1) {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    margin-top: 50px;
+}
+
+button:nth-of-type(2):hover {
+    background-color: hsl(225, 100%, 98%);
+}
+
+.attribution { font-size: 11px; text-align: center; margin: 100px auto;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 400px) {
+    body {
+        background: url("images/pattern-background-desktop.svg") no-repeat center center;
+        background-position: top;
+        background-size: 100vw 300px;
+        background-color: hsl(225, 100%, 94%);
+    }
+}
