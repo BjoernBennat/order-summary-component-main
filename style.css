@@ -19,6 +19,7 @@ main {
     position: relative;
     top: 70px;
     border-radius: 20px;
+    box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.3);
 }
 
 .container {
@@ -92,10 +93,11 @@ button:nth-of-type(1) {
     background-color: hsl(245, 75%, 52%);
     color: hsl(225, 100%, 98%);
     margin-top: 50px;
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.3);
 }
 
-button:nth-of-type(2):hover {
-    background-color: hsl(225, 100%, 98%);
+button:nth-of-type(2){
+    background-color: transparent;
 }
 
 .attribution { font-size: 11px; text-align: center; margin: 100px auto;}
@@ -105,7 +107,11 @@ button:nth-of-type(2):hover {
     body {
         background: url("images/pattern-background-desktop.svg") no-repeat center center;
         background-position: top;
-        background-size: 100vw 300px;
+        background-size: 100vw 400px;
         background-color: hsl(225, 100%, 94%);
+    }
+    main {
+        width: 350px;
+        margin-top: 100px;
     }
 }
